@@ -1,5 +1,7 @@
 # TP1 - Music App
 
+Jules Ramaen
+
 ## Description
 
 This is a simple music app built using **Flutter**, which allows users to explore a collection of songs, manage their favorites, and view details about albums. The app uses **Provider** for state management and loads song and album data from a **JSON file**. The UI is responsive and adapts to various screen sizes.
