@@ -29,21 +29,32 @@ class FavoritesPage extends StatelessWidget {
               fit: BoxFit.cover, // Pour que l'image soit bien centrée dans le carré
             ),
             title: Text(
-                          '${song.title}',
-                          style: TextStyle(fontWeight: FontWeight.bold), // Met l'artiste en gras
-                      ),
+              song.title,
+              style: TextStyle(fontWeight: FontWeight.bold), // Met le titre en gras
+            ),
             subtitle: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                    '${song.artist}',
-                    style: TextStyle(fontWeight: FontWeight.bold), // Met l'artiste en gras
-                  ),
-                Text('${song.album}'),
+                  song.artist,
+                  style: TextStyle(fontWeight: FontWeight.bold), // Met l'artiste en gras
+                ),
+                Text(song.album),
                 Text('${song.year}')
               ],
             ),
-            trailing: Icon(Icons.favorite, color: Colors.red),
+            trailing: Row(
+              mainAxisSize: MainAxisSize.min, // Pour que les icônes soient alignées à droite
+              children: [
+                Icon(Icons.favorite, color: Colors.red), // L'icône favori
+                IconButton(
+                  icon: Icon(Icons.delete, color: Colors.grey),
+                  onPressed: () {
+                    appState.removeFavorite(song); // Appelle la méthode pour supprimer le favori
+                  },
+                ),
+              ],
+            ),
           ),
       ],
     );

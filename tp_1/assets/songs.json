@@ -1,24 +1,569 @@
 [
-    {
-      "title": "Song 1",
-      "artist": "Artist 1",
-      "album": "Album 1",
-      "year": 2021,
-      "cover": "assets/images/cover.jpg"
-    },
-    {
-      "title": "Song 2",
-      "artist": "Artist 2",
-      "album": "Album 2",
-      "year": 2022,
-      "cover": "assets/images/cover.jpg"
-    },
-    {
-      "title": "Song 3",
-      "artist": "Artist 3",
-      "album": "Album 3",
-      "year": 2023,
-      "cover": "assets/images/cover.jpg"
-    }
+  {
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "cover": "assets/images/nevermind.jpg"
+  },
+  {
+    "title": "In Bloom",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "cover": "assets/images/nevermind.jpg"
+  },
+  {
+    "title": "Come as You Are",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "cover": "assets/images/nevermind.jpg"
+  },
+  {
+    "title": "Breed",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "cover": "assets/images/nevermind.jpg"
+  },
+  {
+    "title": "Lithium",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "cover": "assets/images/nevermind.jpg"
+  },
+  {
+    "title": "Polly",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "cover": "assets/images/nevermind.jpg"
+  },
+  {
+    "title": "Territorial Pissings",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "cover": "assets/images/nevermind.jpg"
+  },
+  {
+    "title": "Drain You",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "cover": "assets/images/nevermind.jpg"
+  },
+  {
+    "title": "Lounge Act",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "cover": "assets/images/nevermind.jpg"
+  },
+  {
+    "title": "Stay Away",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "cover": "assets/images/nevermind.jpg"
+  },
+  {
+    "title": "On a Plain",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "cover": "assets/images/nevermind.jpg"
+  },
+  {
+    "title": "Something in the Way",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "cover": "assets/images/nevermind.jpg"
+  },
+  {
+    "title": "Endless, Nameless",
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "year": 1991,
+    "cover": "assets/images/nevermind.jpg"
+  },
+  {
+    "title": "Cowboys From Hell",
+    "artist": "Pantera",
+    "album": "Cowboys From Hell",
+    "year": 1990,
+    "cover": "assets/images/cowboys_from_hell.jpg"
+  },
+  {
+    "title": "Primal Concrete Sledge",
+    "artist": "Pantera",
+    "album": "Cowboys From Hell",
+    "year": 1990,
+    "cover": "assets/images/cowboys_from_hell.jpg"
+  },
+  {
+    "title": "Cemetery Gates",
+    "artist": "Pantera",
+    "album": "Cowboys From Hell",
+    "year": 1990,
+    "cover": "assets/images/cowboys_from_hell.jpg"
+  },
+  {
+    "title": "Domination",
+    "artist": "Pantera",
+    "album": "Cowboys From Hell",
+    "year": 1990,
+    "cover": "assets/images/cowboys_from_hell.jpg"
+  },
+  {
+    "title": "Shattered",
+    "artist": "Pantera",
+    "album": "Cowboys From Hell",
+    "year": 1990,
+    "cover": "assets/images/cowboys_from_hell.jpg"
+  },
+  {
+    "title": "The Art of Shredding",
+    "artist": "Pantera",
+    "album": "Cowboys From Hell",
+    "year": 1990,
+    "cover": "assets/images/cowboys_from_hell.jpg"
+  },
+  {
+    "title": "Message in Blood",
+    "artist": "Pantera",
+    "album": "Cowboys From Hell",
+    "year": 1990,
+    "cover": "assets/images/cowboys_from_hell.jpg"
+  },
+  {
+    "title": "Psycho Holiday",
+    "artist": "Pantera",
+    "album": "Cowboys From Hell",
+    "year": 1990,
+    "cover": "assets/images/cowboys_from_hell.jpg"
+  },
+  {
+    "title": "Slipknot",
+    "artist": "Slipknot",
+    "album": "Slipknot",
+    "year": 1999,
+    "cover": "assets/images/slipknot.jpg"
+  },
+  {
+    "title": "742617000027",
+    "artist": "Slipknot",
+    "album": "Slipknot",
+    "year": 1999,
+    "cover": "assets/images/slipknot.jpg"
+  },
+  {
+    "title": "(sic)",
+    "artist": "Slipknot",
+    "album": "Slipknot",
+    "year": 1999,
+    "cover": "assets/images/slipknot.jpg"
+  },
+  {
+    "title": "Wait and Bleed",
+    "artist": "Slipknot",
+    "album": "Slipknot",
+    "year": 1999,
+    "cover": "assets/images/slipknot.jpg"
+  },
+  {
+    "title": "Surfacing",
+    "artist": "Slipknot",
+    "album": "Slipknot",
+    "year": 1999,
+    "cover": "assets/images/slipknot.jpg"
+  },
+  {
+    "title": "Spit It Out",
+    "artist": "Slipknot",
+    "album": "Slipknot",
+    "year": 1999,
+    "cover": "assets/images/slipknot.jpg"
+  },
+  {
+    "title": "Tattered and Torn",
+    "artist": "Slipknot",
+    "album": "Slipknot",
+    "year": 1999,
+    "cover": "assets/images/slipknot.jpg"
+  },
+  {
+    "title": "No Life",
+    "artist": "Slipknot",
+    "album": "Slipknot",
+    "year": 1999,
+    "cover": "assets/images/slipknot.jpg"
+  },
+  {
+    "title": "Liberate",
+    "artist": "Slipknot",
+    "album": "Slipknot",
+    "year": 1999,
+    "cover": "assets/images/slipknot.jpg"
+  },
+  {
+    "title": "Iron Maiden",
+    "artist": "Iron Maiden",
+    "album": "The Number of the Beast",
+    "year": 1982,
+    "cover": "assets/images/number_of_the_beast.jpg"
+  },
+  {
+    "title": "Invaders",
+    "artist": "Iron Maiden",
+    "album": "The Number of the Beast",
+    "year": 1982,
+    "cover": "assets/images/number_of_the_beast.jpg"
+  },
+  {
+    "title": "Children of the Damned",
+    "artist": "Iron Maiden",
+    "album": "The Number of the Beast",
+    "year": 1982,
+    "cover": "assets/images/number_of_the_beast.jpg"
+  },
+  {
+    "title": "The Prisoner",
+    "artist": "Iron Maiden",
+    "album": "The Number of the Beast",
+    "year": 1982,
+    "cover": "assets/images/number_of_the_beast.jpg"
+  },
+  {
+    "title": "The Number of the Beast",
+    "artist": "Iron Maiden",
+    "album": "The Number of the Beast",
+    "year": 1982,
+    "cover": "assets/images/number_of_the_beast.jpg"
+  },
+  {
+    "title": "Run to the Hills",
+    "artist": "Iron Maiden",
+    "album": "The Number of the Beast",
+    "year": 1982,
+    "cover": "assets/images/number_of_the_beast.jpg"
+  },
+  {
+    "title": "Hallowed Be Thy Name",
+    "artist": "Iron Maiden",
+    "album": "The Number of the Beast",
+    "year": 1982,
+    "cover": "assets/images/number_of_the_beast.jpg"
+  },
+  {
+    "title": "My Own Summer (Shove It)",
+    "artist": "Deftones",
+    "album": "Around the Fur",
+    "year": 1997,
+    "cover": "assets/images/around_the_fur.jpg"
+  },
+  {
+    "title": "Lhabia",
+    "artist": "Deftones",
+    "album": "Around the Fur",
+    "year": 1997,
+    "cover": "assets/images/around_the_fur.jpg"
+  },
+  {
+    "title": "Mascara",
+    "artist": "Deftones",
+    "album": "Around the Fur",
+    "year": 1997,
+    "cover": "assets/images/around_the_fur.jpg"
+  },
+  {
+    "title": "Around the Fur",
+    "artist": "Deftones",
+    "album": "Around the Fur",
+    "year": 1997,
+    "cover": "assets/images/around_the_fur.jpg"
+  },
+  {
+    "title": "Rickets",
+    "artist": "Deftones",
+    "album": "Around the Fur",
+    "year": 1997,
+    "cover": "assets/images/around_the_fur.jpg"
+  },
+  {
+    "title": "Be Quiet and Drive (Far Away)",
+    "artist": "Deftones",
+    "album": "Around the Fur",
+    "year": 1997,
+    "cover": "assets/images/around_the_fur.jpg"
+  },
+  {
+    "title": "Lotion",
+    "artist": "Deftones",
+    "album": "Around the Fur",
+    "year": 1997,
+    "cover": "assets/images/around_the_fur.jpg"
+  },
+  {
+    "title": "Dai the Flu",
+    "artist": "Deftones",
+    "album": "Around the Fur",
+    "year": 1997,
+    "cover": "assets/images/around_the_fur.jpg"
+  },
+  {
+    "title": "Headup",
+    "artist": "Deftones",
+    "album": "Around the Fur",
+    "year": 1997,
+    "cover": "assets/images/around_the_fur.jpg"
+  },
+  {
+    "title": "MX",
+    "artist": "Deftones",
+    "album": "Around the Fur",
+    "year": 1997,
+    "cover": "assets/images/around_the_fur.jpg"
+  },
+  {
+    "title": "Where the Streets Have No Name",
+    "artist": "U2",
+    "album": "The Joshua Tree",
+    "year": 1987,
+    "cover": "assets/images/the_joshua_tree.png"
+  },
+  {
+    "title": "I Still Haven't Found What I'm Looking For",
+    "artist": "U2",
+    "album": "The Joshua Tree",
+    "year": 1987,
+    "cover": "assets/images/the_joshua_tree.png"
+  },
+  {
+    "title": "With or Without You",
+    "artist": "U2",
+    "album": "The Joshua Tree",
+    "year": 1987,
+    "cover": "assets/images/the_joshua_tree.png"
+  },
+  {
+    "title": "Bullet the Blue Sky",
+    "artist": "U2",
+    "album": "The Joshua Tree",
+    "year": 1987,
+    "cover": "assets/images/the_joshua_tree.png"
+  },
+  {
+    "title": "Running to Stand Still",
+    "artist": "U2",
+    "album": "The Joshua Tree",
+    "year": 1987,
+    "cover": "assets/images/the_joshua_tree.png"
+  },
+  {
+    "title": "Red Hill Mining Town",
+    "artist": "U2",
+    "album": "The Joshua Tree",
+    "year": 1987,
+    "cover": "assets/images/the_joshua_tree.png"
+  },
+  {
+    "title": "In God's Country",
+    "artist": "U2",
+    "album": "The Joshua Tree",
+    "year": 1987,
+    "cover": "assets/images/the_joshua_tree.png"
+  },
+  {
+    "title": "Trip Through Your Wires",
+    "artist": "U2",
+    "album": "The Joshua Tree",
+    "year": 1987,
+    "cover": "assets/images/the_joshua_tree.png"
+  },
+  {
+    "title": "One Tree Hill",
+    "artist": "U2",
+    "album": "The Joshua Tree",
+    "year": 1987,
+    "cover": "assets/images/the_joshua_tree.png"
+  },
+  {
+    "title": "Exit",
+    "artist": "U2",
+    "album": "The Joshua Tree",
+    "year": 1987,
+    "cover": "assets/images/the_joshua_tree.png"
+  },
+  {
+    "title": "Mothers of the Disappeared",
+    "artist": "U2",
+    "album": "The Joshua Tree",
+    "year": 1987,
+    "cover": "assets/images/the_joshua_tree.png"
+  },
+  {
+    "title": "War Pigs",
+    "artist": "Black Sabbath",
+    "album": "Paranoid",
+    "year": 1970,
+    "cover": "assets/images/paranoid.jpg"
+  },
+  {
+    "title": "Paranoid",
+    "artist": "Black Sabbath",
+    "album": "Paranoid",
+    "year": 1970,
+    "cover": "assets/images/paranoid.jpg"
+  },
+  {
+    "title": "Planet Caravan",
+    "artist": "Black Sabbath",
+    "album": "Paranoid",
+    "year": 1970,
+    "cover": "assets/images/paranoid.jpg"
+  },
+  {
+    "title": "Iron Man",
+    "artist": "Black Sabbath",
+    "album": "Paranoid",
+    "year": 1970,
+    "cover": "assets/images/paranoid.jpg"
+  },
+  {
+    "title": "Electric Funeral",
+    "artist": "Black Sabbath",
+    "album": "Paranoid",
+    "year": 1970,
+    "cover": "assets/images/paranoid.jpg"
+  },
+  {
+    "title": "Hand of Doom",
+    "artist": "Black Sabbath",
+    "album": "Paranoid",
+    "year": 1970,
+    "cover": "assets/images/paranoid.jpg"
+  },
+  {
+    "title": "Rat Salad",
+    "artist": "Black Sabbath",
+    "album": "Paranoid",
+    "year": 1970,
+    "cover": "assets/images/paranoid.jpg"
+  },
+  {
+    "title": "Fairies Wear Boots",
+    "artist": "Black Sabbath",
+    "album": "Paranoid",
+    "year": 1970,
+    "cover": "assets/images/paranoid.jpg"
+  },
+  {
+    "title": "Battery",
+    "artist": "Metallica",
+    "album": "Master of Puppets",
+    "year": 1986,
+    "cover": "assets/images/master_of_puppets.jpg"
+  },
+  {
+    "title": "Master of Puppets",
+    "artist": "Metallica",
+    "album": "Master of Puppets",
+    "year": 1986,
+    "cover": "assets/images/master_of_puppets.jpg"
+  },
+  {
+    "title": "The Thing That Should Not Be",
+    "artist": "Metallica",
+    "album": "Master of Puppets",
+    "year": 1986,
+    "cover": "assets/images/master_of_puppets.jpg"
+  },
+  {
+    "title": "Welcome Home (Sanitarium)",
+    "artist": "Metallica",
+    "album": "Master of Puppets",
+    "year": 1986,
+    "cover": "assets/images/master_of_puppets.jpg"
+  },
+  {
+    "title": "Disposable Heroes",
+    "artist": "Metallica",
+    "album": "Master of Puppets",
+    "year": 1986,
+    "cover": "assets/images/master_of_puppets.jpg"
+  },
+  {
+    "title": "Leper Messiah",
+    "artist": "Metallica",
+    "album": "Master of Puppets",
+    "year": 1986,
+    "cover": "assets/images/master_of_puppets.jpg"
+  },
+  {
+    "title": "Orion",
+    "artist": "Metallica",
+    "album": "Master of Puppets",
+    "year": 1986,
+    "cover": "assets/images/master_of_puppets.jpg"
+  },
+  {
+    "title": "Damage, Inc.",
+    "artist": "Metallica",
+    "album": "Master of Puppets",
+    "year": 1986,
+    "cover": "assets/images/master_of_puppets.jpg"
+  },
+  {
+    "title": "The Moor",
+    "artist": "Opeth",
+    "album": "Still Life",
+    "year": 1982,
+    "cover": "assets/images/still_life.jpg"
+  },
+  {
+    "title": "Godhead's Lament",
+    "artist": "Opeth",
+    "album": "Still Life",
+    "year": 1982,
+    "cover": "assets/images/still_life.jpg"
+  },
+  {
+    "title": "Benighted",
+    "artist": "Opeth",
+    "album": "Still Life",
+    "year": 1982,
+    "cover": "assets/images/still_life.jpg"
+  },
+  {
+    "title": "Moonlapse Vertigo",
+    "artist": "Opeth",
+    "album": "Still Life",
+    "year": 1982,
+    "cover": "assets/images/still_life.jpg"
+  },
+  {
+    "title": "Face of Melinda",
+    "artist": "Opeth",
+    "album": "Still Life",
+    "year": 1982,
+    "cover": "assets/images/still_life.jpg"
+  },
+  {
+    "title": "Serenity Painted Death",
+    "artist": "Opeth",
+    "album": "Still Life",
+    "year": 1982,
+    "cover": "assets/images/still_life.jpg"
+  },
+  {
+    "title": "White Cluster",
+    "artist": "Opeth",
+    "album": "Still Life",
+    "year": 1982,
+    "cover": "assets/images/still_life.jpg"
+  }
 ]
-  

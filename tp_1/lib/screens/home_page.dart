@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'favorites_page.dart';
 import 'songs_page.dart';
 import 'about_page.dart';
+import 'albums_page.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -19,13 +20,17 @@ class _MyHomePageState extends State<MyHomePage> {
         page = SongsPage();
         break;
       case 1:
-        page = FavoritesPage();
+        page = AlbumsPage();
         break;
       case 2:
+        page = FavoritesPage();
+        break;
+      case 3:
         page = AboutPage();
         break;
       default:
-        throw UnimplementedError('no widget for $selectedIndex');
+        page = SongsPage();
+        break;
     }
 
     return LayoutBuilder(
@@ -40,8 +45,12 @@ class _MyHomePageState extends State<MyHomePage> {
                     extended: true,
                     destinations: [
                       NavigationRailDestination(
-                        icon: Icon(Icons.home),
+                        icon: Icon(Icons.music_note),
                         label: Text('Songs'),
+                      ),
+                      NavigationRailDestination(
+                        icon: Icon(Icons.album),
+                        label: Text('Albums'),
                       ),
                       NavigationRailDestination(
                         icon: Icon(Icons.favorite),
@@ -51,6 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         icon: Icon(Icons.info),
                         label: Text('About'),
                       ),
+                      
                     ],
                     selectedIndex: selectedIndex,
                     onDestinationSelected: (value) {
@@ -73,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // Utilisation de BottomNavigationBar pour les petits écrans
           return Scaffold(
             body: Container(
-              color: Theme.of(context).colorScheme.primaryContainer, // Ajout du fond
+              color: Theme.of(context).colorScheme.secondaryContainer, // Ajout du fond
               child: page,
             ),
             bottomNavigationBar: BottomNavigationBar(
@@ -83,10 +93,16 @@ class _MyHomePageState extends State<MyHomePage> {
                   selectedIndex = value;
                 });
               },
+              selectedItemColor: Colors.black,  // Force les icônes sélectionnées en noir
+              unselectedItemColor: Colors.grey, // Icônes non sélectionnées en gris
               items: [
                 BottomNavigationBarItem(
-                  icon: Icon(Icons.home),
+                  icon: Icon(Icons.music_note),
                   label: 'Songs',
+                ),
+                BottomNavigationBarItem(
+                  icon: Icon(Icons.album),
+                  label: 'Albums',
                 ),
                 BottomNavigationBarItem(
                   icon: Icon(Icons.favorite),

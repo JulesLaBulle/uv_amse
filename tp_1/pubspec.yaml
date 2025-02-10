@@ -24,5 +24,13 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/images/cover.jpg
     - assets/songs.json
+    - assets/images/around_the_fur.jpg
+    - assets/images/cowboys_from_hell.jpg
+    - assets/images/master_of_puppets.jpg
+    - assets/images/nevermind.jpg
+    - assets/images/number_of_the_beast.jpg
+    - assets/images/paranoid.jpg
+    - assets/images/slipknot.jpg
+    - assets/images/still_life.jpg
+    - assets/images/the_joshua_tree.png

@@ -33,24 +33,24 @@ class _SongsPageState extends State<SongsPage> {
                 return ListTile(
                   leading: Image.asset(song.cover), // Affiche la couverture
                   title: Text(
-                          '${song.title}',
+                          song.title,
                           style: TextStyle(fontWeight: FontWeight.bold), // Met l'artiste en gras
                       ),
                   subtitle: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                          '${song.artist}',
+                          song.artist,
                           style: TextStyle(fontWeight: FontWeight.bold), // Met l'artiste en gras
                       ),
-                      Text('${song.album}'),
+                      Text(song.album),
                       Text('${song.year}')
                     ],
                   ),
                   trailing: IconButton(
                     icon: Icon(appState.favorites.contains(song)
-                        ? Icons.favorite
-                        : Icons.favorite_border),
+                      ? Icons.favorite
+                      : Icons.favorite_border),
                     onPressed: () {
                       appState.toggleFavorite(song);
                     },

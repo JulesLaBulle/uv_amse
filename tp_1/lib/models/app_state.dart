@@ -33,4 +33,9 @@ class MyAppState extends ChangeNotifier {
     }
     notifyListeners();
   }
+
+  void removeFavorite(Song song) {
+    favorites.remove(song);
+    notifyListeners(); // Notifie les écouteurs pour mettre à jour l'UI
+  }
 }
