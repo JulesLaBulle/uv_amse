@@ -22,8 +22,28 @@ class FavoritesPage extends StatelessWidget {
         ),
         for (var song in appState.favorites)
           ListTile(
-            leading: Icon(Icons.favorite),
-            title: Text(song.title),
+            leading: Image.asset(
+              song.cover,
+              width: 50, // Ajuste la taille de l'image
+              height: 50, // Ajuste la taille de l'image
+              fit: BoxFit.cover, // Pour que l'image soit bien centrée dans le carré
+            ),
+            title: Text(
+                          '${song.title}',
+                          style: TextStyle(fontWeight: FontWeight.bold), // Met l'artiste en gras
+                      ),
+            subtitle: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                    '${song.artist}',
+                    style: TextStyle(fontWeight: FontWeight.bold), // Met l'artiste en gras
+                  ),
+                Text('${song.album}'),
+                Text('${song.year}')
+              ],
+            ),
+            trailing: Icon(Icons.favorite, color: Colors.red),
           ),
       ],
     );

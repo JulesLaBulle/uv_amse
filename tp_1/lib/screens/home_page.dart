@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     destinations: [
                       NavigationRailDestination(
                         icon: Icon(Icons.home),
-                        label: Text('Home'),
+                        label: Text('Songs'),
                       ),
                       NavigationRailDestination(
                         icon: Icon(Icons.favorite),
@@ -86,7 +86,7 @@ class _MyHomePageState extends State<MyHomePage> {
               items: [
                 BottomNavigationBarItem(
                   icon: Icon(Icons.home),
-                  label: 'Home',
+                  label: 'Songs',
                 ),
                 BottomNavigationBarItem(
                   icon: Icon(Icons.favorite),

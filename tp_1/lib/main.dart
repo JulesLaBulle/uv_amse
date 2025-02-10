@@ -4,12 +4,7 @@ import 'models/app_state.dart';
 import 'screens/home_page.dart';
 
 void main() {
-  runApp(
-    ChangeNotifierProvider(
-      create: (context) => MyAppState(),
-      child: MyApp(),
-    ),
-  );
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {

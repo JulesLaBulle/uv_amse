@@ -1,9 +1,29 @@
+import 'dart:convert';
+import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
-import 'package:english_words/english_words.dart';
 import 'song.dart';
 
 class MyAppState extends ChangeNotifier {
   var favorites = <Song>[];
+  List<Song> songs = [];
+
+  Future<void> loadSongs() async {
+    // Charge le fichier JSON
+    final String response = await rootBundle.loadString('assets/songs.json');
+    final List<dynamic> data = json.decode(response);
+
+    // Convertit chaque élément en objet Song
+    songs = data.map((songData) {
+      return Song(
+        title: songData['title'],
+        artist: songData['artist'],
+        album: songData['album'],
+        year: songData['year'],
+        cover: songData['cover'], // Ajoutez l'attribut cover
+      );
+    }).toList();
+    notifyListeners();
+  }
 
   void toggleFavorite(Song song) {
     if (favorites.contains(song)) {
@@ -13,12 +33,4 @@ class MyAppState extends ChangeNotifier {
     }
     notifyListeners();
   }
-
-  List<Song> songs = [
-  Song(title: "Song 1", artist: "Artist 1"),
-  Song(title: "Song 2", artist: "Artist 2"),
-  Song(title: "Song 3", artist: "Artist 3"),
-  Song(title: "Song 4", artist: "Artist 4"),
-  Song(title: "Song 5", artist: "Artist 5"),
-];
 }
