@@ -1,4 +1,4 @@
-# Music App
+# TP1 - Music App
 
 ## Description
 
@@ -26,7 +26,7 @@ To run the project on your local machine:
 
 ### Project Structure
 - **`assets`** 
-  - `images`
+  - `images` 
   - `songs.json`
 
 - **`lib`**
